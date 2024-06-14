@@ -1,6 +1,9 @@
-
-export const App = () => {
+import React from 'react'
+import { RootLayout } from './Components/RootLayout'
+const App = () => {
   return (
-    <div>App</div>
+    <RootLayout />
   )
 }
+
+export default App
