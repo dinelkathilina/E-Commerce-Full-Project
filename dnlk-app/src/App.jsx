@@ -1,16 +1,6 @@
-import './App.css'
 
-function App() {
-
-
+export const App = () => {
   return (
-    <>
-      <div>
-        hi
-      </div>
-      
-    </>
+    <div>App</div>
   )
 }
-
-export default App
