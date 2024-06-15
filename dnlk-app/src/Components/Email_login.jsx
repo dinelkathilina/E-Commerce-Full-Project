@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Button } from './Button'
 import { useState } from 'react'
 export const Email_login = () => {
@@ -16,7 +17,7 @@ export const Email_login = () => {
         <a href="/" className='flex justify-start text-sky-800'>Forgot email?</a>
         <div className='flex justify-end'>
 
-        <Button button_text='Next'/>
+        <Link to={ '/password'}><Button button_text='Next'/></Link>
         </div>
         </div>
     </div>
